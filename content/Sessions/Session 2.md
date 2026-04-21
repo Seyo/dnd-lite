@@ -10,7 +10,7 @@ tags:
 |---|---|
 | **Platser** | Klippan, Skogen, Den övergivna stugan, Vargarnas glänta |
 | **Karaktärer** | [[Aduro]], [[Nari]], [[Bult]] |
-| **Viktiga fynd** | Karta, gammal dagbok |
+| **Viktiga fynd** | Karta, gammal dagbok, vargpäls, ny ryggsäck |
 | **Nya ledtrådar** | [[Ulf]] — vargguden, mystisk sjukdom |
 
 ---
@@ -48,6 +48,12 @@ Men [[Bult]] — som tydligen är en man av många talanger — steg fram och ko
 
 Gruppen kände att de inte hade något uppdrag att störa vargarna med. De lämnade dem i fred.
 
+### Lägret
+
+Med dagens äventyr bakom sig slog gruppen läger i skogen och fixade till det lite. [[Aduro]] hade skaffat sig en ny ryggsäck — och i den låg en vargpäls, trygg och varm. *(Hur den hamnade där är ännu oklart.)*
+
+Hjältarna vilade ut, redo för vad skogen har att erbjuda härnäst.
+
 ---
 
 ## Viktiga ledtrådar
@@ -60,4 +66,4 @@ Gruppen kände att de inte hade något uppdrag att störa vargarna med. De lämn
 
 ## Nästa session
 
-Gruppen lämnar gläntan. Vart leder stigen vidare?
+Gruppen vilar i lägret. Skogen väntar.
