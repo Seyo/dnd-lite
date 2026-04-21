@@ -67,4 +67,4 @@ Hjältarna smög in i den sovande byn, trötta men segerrika.
 
 ## Nästa session
 
-Morgonen och berättelsen för [[Hildur]] väntar. Men vart leder äventyret härnäst — mot djungeln och Lejonets hemligheter?
+Morgonen och berättelsen för [[Hildur]] väntar. Under vilan **level up**! Aduro får **teleport** och Nari får **dansattack** — en förmåga som skjuter pilar åt alla möjliga håll. Det låter lovande.

@@ -62,7 +62,7 @@ Vid savannens kant dök Solporten upp i horisonten.
 
 Sedan attackerade en gigantisk **köttätande växt**.
 
-- Nari försökte kombinera dans och pilattack. **Nat 1.** Han pepparade sina egna vänner med pilar.
+- Nari testade sin splitternya **dansattack** för första gången — en förmåga som skjuter pilar åt alla möjliga håll medan man dansar. **Nat 1.** En pil träffade [[Aduro]] rakt i hälen.
 - Växten sprutade hallucinerande sporer på Nari, som omedelbart hamnade på ett **djungel-disko** med trummande apor och rosa elefanter.
 - Aduro teleporterade sig i säkerhet.
 - Bult klev fram, slog **Nat 20** och klöv monsterväxten på mitten.
