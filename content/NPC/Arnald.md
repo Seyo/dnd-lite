@@ -6,19 +6,19 @@ tags:
 ---
 
 **Roll:** Goblin Boss  
-**Status:** Besegrades i Session 1 — tydligen inte slutgiltigt
+**Status:** Besegrad (†)
 
 ## Om Arnald
 
-Goblinbossen som satt på sin tron i fångelsehålans tronrum och styrde goblins när [[Aduro]], [[Nari]] och [[Bult]] bröt sig ut i [[Session 1 — Flykten från fångelsehålan|Session 1]]. Gruppen besegrade honom och tog den magiska kistan med Lejonets amulett, pilar, sköld och healing scroll.
+En goblinboss som stal Lejonets amulett från en mäktig okänd boss och flydde in i skogen där han etablerade sig i fångelsehålan. Där satt han på sin tron tills [[Aduro]], [[Nari]] och [[Bult]] bröt sig ut ur sin cell och besegrade honom i [[Session 1 — Flykten från fångelsehålan|Session 1]].
 
-I [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]] visade det sig att Arnald fortfarande är i omlopp — goblinsarna vid ruinerna nämnde att de styrs av Arnald, och att han stulit en amulett från deras boss.
+Hjältarna tog amuletten utan att veta dess historia — men i [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]] visade det sig att goblinsarna i söder jobbar för Arnalds gamla boss, som fortfarande letar efter sin stulna amulett.
 
-Det verkar som att varken Arnald eller amulettfrågan är löst.
+Det vill säga: [[Aduro]] bär just nu på ett föremål som en okänd och troligtvis mäktig boss vill ha tillbaka.
 
 ## Sessionhistorik
 
 | Session | Händelse |
 |---|---|
-| [[Session 1 — Flykten från fångelsehålan\|Session 1]] | Besegrad i tronrummet, förlorade den magiska kistan |
-| [[Session 7 — Lerbad, rökridåer och prinsen av Solporten\|Session 7]] | Nämnd av goblins — lever och är aktiv i söder |
+| [[Session 1 — Flykten från fångelsehålan\|Session 1]] | Besegrad i tronrummet, amuletten tagen av hjältarna |
+| [[Session 7 — Lerbad, rökridåer och prinsen av Solporten\|Session 7]] | Nämnd av goblins — hans gamla boss är aktiv i söder |

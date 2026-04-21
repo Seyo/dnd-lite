@@ -35,7 +35,7 @@ Vid några gamla ruiner dök tre goblins upp.
 
 - Nari valde att **boxa** en goblin istället för att skjuta. Det gick inte bra. En goblin svarade med en crit från en pelare.
 - Aduro försökte skapa en häftig eldvägg — **Nat 1** — och fyllde hela området med tjock, stickande rök. Alla hostade och slog med disadvantage.
-- Mitt i röken fick de veta att goblinsarna styrs av **[[Arnald]]** — samma goblinboss de besegrade i [[Session 1 — Flykten från fångelsehålan|Session 1]]! Han lever, är aktiv i söder, och ska ha stulit en amulett från någons boss. Ledtråd noterad.
+- Mitt i röken fick de veta att goblinsarna jobbar för en okänd boss — och att [[Arnald]] (goblinbossen från [[Session 1 — Flykten från fångelsehålan|Session 1]]) stal en amulett från denne boss och flydde. Hjältarna besegrade Arnald och tog amuletten utan att veta dess historia. Nu vet de att någon mäktig letar efter den — och [[Aduro]] har den i fickan.
 - Aduro testade sin nya **teleportförmåga** för att överraska fienden. Missade.
 - **Bult** fick nog, slog **Nat 20** och skickade en goblin flygande över en mur.
 - Den sista goblinen hade så otur att hans **egen båge gick sönder och träffade honom i ögat**.
