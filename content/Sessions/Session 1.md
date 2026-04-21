@@ -23,9 +23,14 @@ tags:
 
 Nari försökte dyrka upp låset med en metallbit han hittade på golvet. Misslyckades totalt. Aduro löste problemet på sitt vis: kastade en eldboll mot trät kring låset så att det svällde — sedan knuffade Nari upp dörren.
 
+![[ChatGPT_Image_Mar_1_2026_11_41_20_AM.png]]
+![[ChatGPT_Image_Mar_1_2026_11_19_18_AM.png]]
+
 ### Bult ansluter
 
 Korridoren utanför hade ett par dörrar och längst bort en extra stor. Mitt i det hörde de ett hopp från en av cellerna — *"Hallooo, är det någon där, kan man få lite hjälp?"*
+
+![[ChatGPT_Image_Mar_1_2026_12_19_38_PM.png]]
 
 De använde en nyckel som låg slängd på golvet och befriade [[Bult]], en paladin som också satt fängslad. Tre är bättre än två — sällskapet var bildat.
 
@@ -48,6 +53,8 @@ Nari försökte göra fred. Erbjöd goblinen gaffeln som vänskapsgåva. Kastade
 > *"Hey there! Wanna be friends?"*
 > *"YOU THREW A FORK IN MY GUT!!!"*
 
+![[720457ad-6e5c-46ea-a6dd-3ec8301b1c36.png]]
+
 Goblinen var inte längre intresserad av diplomati. Nari avslutade striden med en kraftkristall och dubbelskott — goblinen hade ingen chans.
 
 ### Smyget förbi vakterna
@@ -68,6 +75,8 @@ Striden var lång och kaotisk:
 
 > *"Oops! Sorry! Nat 1!"*
 > *"AAAH! MY EAR!!!"*
+
+![[ChatGPT_Image_Mar_1_2026_01_30_40_PM.png]]
 
 ### Skatten
 
