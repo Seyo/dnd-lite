@@ -6,11 +6,12 @@ tags:
 ---
 
 **Klass:** Paladin  
-**Specialitet:** Mänsklig sköld, uthållighet under eld (bokstavligt talat, vid upprepade tillfällen)
+**Spelad av:** DM  
+**Roll:** Tank, buffer, healer
 
 ## Om Bult
 
-En stabil och pålitlig paladin som befriades ur en fängelsecell av [[Aduro]] och [[Nari]]. Har sedan dess agerat gruppens frontlinjeskydd med professionell hängivenhet — trots att samma räddare nu bränt *båda* hans öron vid separata tillfällen, samt svedat skägget med en blixt. Bult kommenterar sällan detta. Han håller i.
+En stabil och pålitlig paladin som befriades ur en fängelsecell av [[Aduro]] och [[Nari]]. Håller sig i bakgrunden socialt — det är inte hans grej — men när det väl blåser upp till strid kliver han fram som en vägg. Har professionellt absorberat eld, blixtar och goblinbett utan att klaga nämnvärt, trots att samma räddare nu bränt *båda* hans öron och svedat skägget. Han håller i.
 
 ## Kända förmågor
 
