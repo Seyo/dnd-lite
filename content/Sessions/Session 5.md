@@ -19,9 +19,9 @@ tags:
 
 ### Del 1: Skogshuggare för en dag
 
-Hjältarna satte igång med att rädda byn på det allra mest jordnära sättet — de högg ved. Med [[Bult]]s muskler i spetsen fällde de ett gigantiskt träd. [[Nari]] höll humöret uppe och ledde sedan stolt hästarna tillbaka till [[Hildur]] med hela lasset.
+Hjältarna satte igång med att rädda [[Bladkurvan]] på det allra mest jordnära sättet — de högg ved. Med [[Bult]]s muskler i spetsen fällde de ett gigantiskt träd. [[Nari]] höll humöret uppe och ledde sedan stolt hästarna tillbaka till [[Hildur]] med hela lasset.
 
-Byn fick sin ved. Kylan satt dock kvar. Hildur skickade dem vidare mot skogens hjärta: stenplattan.
+[[Bladkurvan]] fick sin ved. Kylan satt dock kvar. Hildur skickade dem vidare mot skogens hjärta: stenplattan.
 
 ### Del 2: En skum gubbe och "Öra-gate" fortsätter
 
@@ -50,7 +50,7 @@ Ulf dök upp i grottöppningen.
 
 Han kände igen Lejonets amulett. Sa att han inte sett den på **2 000 år**. Och sedan — utan förvarning — förvandlades den gamle mannen till en **enorm varg**.
 
-Ulf förklarade att han är vargguden, men att han tappat kontrollen. Något mörkt och uråldrigt rör sig i skogens djup och stjäl hans kraft — det är det som driver vargarna att attackera och lagt den magiska vintern över byn. Han ber hjältarna om hjälp.
+Ulf förklarade att han är vargguden, men att han tappat kontrollen. Något mörkt och uråldrigt rör sig i skogens djup och stjäl hans kraft — det är det som driver vargarna att attackera och lagt den magiska vintern över [[Bladkurvan]]. Han ber hjältarna om hjälp.
 
 De går med på det.
 

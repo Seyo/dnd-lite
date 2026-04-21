@@ -8,7 +8,7 @@ tags:
 
 | | |
 |---|---|
-| **Platser** | Flodbryggan, Byn |
+| **Platser** | Flodbryggan, [[Bladkurvan]] |
 | **Karaktärer** | [[Aduro]], [[Nari]], [[Bult]] |
 | **Nya bekanta** | [[Harald]], [[Hildur]], [[Nori]], [[Sigrid]] |
 | **Besegrade** | [[Rollo]] (bandit med pris på huvudet) |
@@ -47,7 +47,7 @@ Vad det betyder vet ingen ännu. Men minnena av vargen dröjer sig kvar.
 
 ![[ChatGPT_Image_Apr_8_2026_11_59_26_AM.png]]
 
-### Del 3: Välkomna till byn
+### Del 3: Välkomna till [[Bladkurvan]]
 
 Hjältarna lämnade vildmarken och nådde äntligen en liten by. Där möttes de av den knubbige och glade dvärgen **[[Harald]]** — som blev eld och lågor när han fick se dem. Det var åratal sedan någon kommit levande ut ur skogen!
 
@@ -78,4 +78,4 @@ Kvällen avslutades med att Nari, hungrig och trött, sprang rakt in i en vägg 
 
 ## Nästa session
 
-Hjältarna är i byn med nya vapen och magiska krafter. Vad vill [[Hildur]] av dem?
+Hjältarna är i [[Bladkurvan]] med nya vapen och magiska krafter. Vad vill [[Hildur]] av dem?

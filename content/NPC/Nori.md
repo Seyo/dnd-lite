@@ -5,6 +5,6 @@ tags:
   - handelsman
 ---
 
-**Yrke:** Handelsman i byn
+**Yrke:** Handelsman i [[Bladkurvan]]
 
 Köpte banditernas svärd av gruppen i [[Session 3 — Brobråk, stjärntecken och den glada dvärgen|Session 3]].

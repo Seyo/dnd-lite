@@ -20,7 +20,7 @@ tags:
 
 ### Morgonen efter segern
 
-Hjältarna vaknade på hotellet i byn. Det var inte bara varmt — det var *tryckande* hett. Snön hade smält på bara några timmar och luften luktade fuktig jord och exotiska blommor.
+Hjältarna vaknade på hotellet i [[Bladkurvan]]. Det var inte bara varmt — det var *tryckande* hett. Snön hade smält på bara några timmar och luften luktade fuktig jord och exotiska blommor.
 
 [[Hildur]] väntade på dem, och hon var inte ensam. Bredvid henne stod en **genomsvettig budbärare från [[Solporten]]** — staden mellan djungeln och öknen — med skrämmande nyheter:
 

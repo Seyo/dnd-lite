@@ -11,7 +11,7 @@ tags:
 
 Mannen bakom den magiska vintern. Hade stulit gudomlig kraft och inbillat sig att han var en gud — tills [[Aduro]]s mega-eldboll och en isvakenattning fick den onda kraften att lämna honom.
 
-När han drog sig upp ur det iskalla vattnet var han sig själv igen och tackade hjältarna ödmjukt. Han och sonen [[Rollo]] valde att slå läger i banditlägret utanför byn istället för att gå in.
+När han drog sig upp ur det iskalla vattnet var han sig själv igen och tackade hjältarna ödmjukt. Han och sonen [[Rollo]] valde att slå läger i banditlägret utanför [[Bladkurvan]] istället för att gå in.
 
 ## Sessionhistorik
 

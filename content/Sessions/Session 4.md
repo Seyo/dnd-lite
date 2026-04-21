@@ -8,7 +8,7 @@ tags:
 
 | | |
 |---|---|
-| **Plats** | Byn |
+| **Plats** | [[Bladkurvan]] |
 | **Karaktärer** | [[Aduro]], [[Nari]], [[Bult]] |
 | **Nya bekanta** | [[Sven]], [[Rolf]], [[Sabrina]] |
 | **Guldkassa** | 154 guldmynt |
@@ -26,7 +26,7 @@ Ute på marknaden köpte de lammkött och grönsaker av handlaren **[[Sven]]** f
 
 ### Del 2: Tävlingsdags — Trippelvinst!
 
-Byn sjöd av festtävlingar. Hjältarna visade sig vara rena naturtalangerna.
+[[Bladkurvan]] sjöd av festtävlingar. Hjältarna visade sig vara rena naturtalangerna.
 
 **Pilbågstävlingen**
 
@@ -48,7 +48,7 @@ Vid bron utmanade Aduro alven **[[Sabrina]]**. Med sin magiska eld fick han upp 
 
 Mitt i segeryran förändrades allt.
 
-Luften blev iskall. Snö började falla — mitt i sommaren. Två vargar med **lysande blå ögon** rusade in i byn. Nari försökte tämja en men vargen var fylld av ett märkligt blått ljus. Bult distraherade dem medan Aduro slog till med en enorm eldboll.
+Luften blev iskall. Snö började falla — mitt i sommaren. Två vargar med **lysande blå ögon** rusade in i [[Bladkurvan]]. Nari försökte tämja en men vargen var fylld av ett märkligt blått ljus. Bult distraherade dem medan Aduro slog till med en enorm eldboll.
 
 Vargarna lämnade inga kadaver. De upplöstes i ett **blått stoft** som virvlade bort med vinden.
 
@@ -60,13 +60,13 @@ Vargarna lämnade inga kadaver. De upplöstes i ett **blått stoft** som virvlad
 - **Lejonet** — härskar i djungeln
 - **Vargen** — förvisad till urskogen
 
-Vargens krafter verkar ha vaknat — och lagt en magisk vinter över byn.
+Vargens krafter verkar ha vaknat — och lagt en magisk vinter över [[Bladkurvan]].
 
 *(Notera: Stjärntecknen Aduro aktiverade vid stenplattan i [[Session 3 — Brobråk, stjärntecken och den glada dvärgen|Session 3]] visade just dessa tre.)*
 
 ### Efterspel: En frusen natt
 
-Byn låg nu under snö. Nari halkade på väg till hotellet men lovade i ett infall av hjältemod att fixa ved till alla bybor.
+[[Bladkurvan]] låg nu under snö. Nari halkade på väg till hotellet men lovade i ett infall av hjältemod att fixa ved till alla bybor.
 
 Morgonen därpå knackade Hildur på dörren med ett officiellt uppdrag: hitta ved till byborna och, viktigare, ta reda på varför den magiska vintern kommit.
 

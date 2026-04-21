@@ -8,7 +8,7 @@ tags:
 
 | | |
 |---|---|
-| **Platser** | Byn, Gravplatsen, Isvaken |
+| **Platser** | [[Bladkurvan]], Gravplatsen, Isvaken |
 | **Karaktärer** | [[Aduro]], [[Nari]], [[Bult]], [[Ulf]] |
 | **Nya bekanta** | [[Beowulf]] |
 | **Avslöjanden** | Beowulf är pappa till både [[Rollo]] och [[Rolf]]! |
@@ -21,7 +21,7 @@ tags:
 
 [[Ulf]] väckte hjältarna med ett avslöjande: skurken bakom den eviga vintern är **[[Beowulf]]** — en man som stulit gudomlig kraft och inbillat sig att han är en gud.
 
-Chocken blev ännu större när hotellpersonalen slog på med en bonus-avslöjning: Beowulf är pappa till både **[[Rollo]]** och **[[Rolf]]**. Familjeträdet i den här byn är inte enkelt.
+Chocken blev ännu större när hotellpersonalen slog på med en bonus-avslöjning: Beowulf är pappa till både **[[Rollo]]** och **[[Rolf]]**. Familjeträdet i den här [[Bladkurvan]] är inte enkelt.
 
 Ulf bjöd på varmkorv inför avfärden. [[Nari]] fick en extra. Sedan bar det av mot gravplatsen i skogen med häst och vagn.
 
@@ -59,9 +59,9 @@ Ulf återfick sin gudomliga kraft vid isvaken. Värmen började sakta återvänd
 
 På vagnsresan hem försvann Ulf tyst in i skogen utan ett ord.
 
-Rollo och Beowulf valde att söka skydd i banditlägret snarare än byn. Innan de skildes åt kastade Rollo en **silversked** till Nari — ett tröstpris för den klyftade sleven. Nari var överlycklig.
+Rollo och Beowulf valde att söka skydd i banditlägret snarare än [[Bladkurvan]]. Innan de skildes åt kastade Rollo en **silversked** till Nari — ett tröstpris för den klyftade sleven. Nari var överlycklig.
 
-Hjältarna smög in i den sovande byn, trötta men segerrika.
+Hjältarna smög in i den sovande [[Bladkurvan]], trötta men segerrika.
 
 ---
 
