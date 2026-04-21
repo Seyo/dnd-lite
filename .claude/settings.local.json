@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(npm --version)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(cp -r /c/Users/emiln/code/quartz-temp/. /c/Users/emiln/code/dnd-lite/ --exclude='.git')",
+      "Bash(rsync -a --exclude='.git' /c/Users/emiln/code/quartz-temp/ /c/Users/emiln/code/dnd-lite/)",
+      "Bash(cp -r /c/Users/emiln/code/quartz-temp/. /c/Users/emiln/code/dnd-lite/)",
+      "Bash(git add *)"
+    ]
+  }
+}
