@@ -65,7 +65,7 @@ Nari ledde smygningen och var tvungen att viska åt både Bult och Aduro att *in
 
 ### Tronrummet
 
-Nästa rum var ett improviserat tronrum — någon hade gjort om en stor sal. Där tronade en **Goblin Boss**, flankerad av två Goblin Minions och en Goblin Warrior. De såg äventyrarna direkt.
+Nästa rum var ett improviserat tronrum — någon hade gjort om en stor sal. Där tronade **[[Arnald]]**, goblinbossen, flankerad av två Goblin Minions och en Goblin Warrior. De såg äventyrarna direkt.
 
 Striden var lång och kaotisk:
 
