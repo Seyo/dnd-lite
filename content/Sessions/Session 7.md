@@ -18,9 +18,22 @@ tags:
 
 ## Vad hände
 
+### Morgonen efter segern
+
+Hjältarna vaknade på hotellet i byn. Det var inte bara varmt — det var *tryckande* hett. Snön hade smält på bara några timmar och luften luktade fuktig jord och exotiska blommor.
+
+[[Hildur]] väntade på dem, och hon var inte ensam. Bredvid henne stod en **genomsvettig budbärare från [[Solporten]]** — staden mellan djungeln och öknen — med skrämmande nyheter:
+
+- Djungeln hade börjat **växa okontrollerat**. Den sväljde vägar och hus på bara några timmar.
+- Och det mest skrämmande: **[[Lejonet]]**, djungelns väktare, hade **slutat ryta**. Utan hans dån hade djungelns monster blivit galna och attackerade nu staden.
+
+Hildur räckte över ett **förseglat brev**. *"Ni måste hitta min gamla vän, [[Kapten Krokfot]]. Han vaktar portarna till Solporten. Om någon kan guida er in i djungeln för att hitta Lejonet, så är det han."*
+
+Uppdraget var klart. Gruppen gav sig av.
+
 ### Del 1: Träsket och den kassa spaden
 
-Snön var borta. Värmen hade tagit över — fuktig, klibbig och full av ilskna myggor. Hjältarna var på väg mot djungeln.
+Resan mot djungeln gick genom ett träsk. Värmen hade tagit över — fuktig, klibbig och full av ilskna myggor.
 
 I träsket log lyckan till en gång när de med en **Nat 20** grävde fram **20 guldmynt** ur dyn.
 
@@ -75,7 +88,7 @@ Det verkar som att Aduro delar namn med en **försvunnen dragonborn-prins**. Ell
 ## Nuvarande läge
 
 **Guldkassa:** 174 guldmynt  
-**Öppna trådar:** Vem är Arnald? Vad är Aduros koppling till den försvunne prinsen? Danstävlingen.  
+**Öppna trådar:** Var är Lejonet? Vad är Aduros koppling till den försvunne prinsen? Danstävlingen. Vem är den okände bossen?  
 **Nästa möte:** [[Kapten Krokfot]]
 
 ## Nästa session
