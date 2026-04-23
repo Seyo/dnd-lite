@@ -21,14 +21,14 @@ En smidig tjuv med utmärkta smygningsförmågor och ett hjärta av guld — äv
 ## Förmågor
 
 - **Smyga** *(passiv)* — göm dig bakom något, +5 på nästa attack
-- **Målsökande pil** *(passiv)* — +1 att träffa om du ser målet, −1 om målet är bakom en vägg. Upplåst vid level up i [[Session 2 — Från Klippan till Vargarnas Glänta|Session 2]]
+- **Målsökande pil** *(−1 kristall)* — +1 att träffa om du ser målet, −1 om målet är bakom en vägg. Upplåst vid level up i [[Session 2 — Från Klippan till Vargarnas Glänta|Session 2]]
 - **Dubbelskott** *(−1 kristall)* — skjut 2 pilar samtidigt direkt
 - **Dansfest** *(−1 kristall)* — 4d4 skada som träffar lite överallt. Debuterade i [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]] med en Nat 1 som träffade [[Aduro]] i hälen
 - **Dyrkning** — i teorin
 
 ## Kraftkristaller
 
-Nari bär **4 kraftkristaller**. Används för Dubbelskott och Dansfest. Återfås vid vila.
+Nari bär **4 kraftkristaller**. Används för Målsökande pil, Dubbelskott och Dansfest. Återfås vid vila.
 
 ## Utrustning
 
