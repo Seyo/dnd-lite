@@ -8,29 +8,36 @@ tags:
 **Klass:** Trollkarl (Dragonborn)  
 **Specialitet:** Eldmagi — med varierande precision, och en pågående skallsamling
 
+| HP | AC | Attack | Skada | Rörelse |
+|---|---|---|---|---|
+| 33 | 12 | +5 | 1d10 + 1d4 | 6 rutor |
+
+**Eldbonusskada:** +2 &nbsp;·&nbsp; **Undersöka:** +5 &nbsp;·&nbsp; **Övertala:** +5
+
 ## Om Aduro
 
 En drakkindad trollkarl med ett genuint intresse för att lösa problem med eld. Ibland fungerar det utmärkt. Ibland sätter han eld på halva rummet, bränner örat av sin följeslagare, eller grillar båda öronen med en Nat 1. Hjärtat är på rätt ställe. Eldbollarnas bana är det svårare att säga.
 
 Samlar på skallar — målet är att smida ett par **episka axelpads**.
 
-## Kända förmågor
+## Förmågor
 
-- **Eldboll** — träffsäkerheten varierar kraftigt
-- **Blå flamma** *(kraftkristall)* — uppgraderad eld sedan level up i [[Session 2 — Från Klippan till Vargarnas Glänta|Session 2]]
-- **Teleport** *(kraftkristall)* — upplåst vid level up mellan Session 6 och 7. Debuterade mot goblins i [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]] — missade
+- **Eldboll / Blå flamma** *(passiv, 14d-tärning, +1d4 skada)* — uppgraderad eld sedan level up i [[Session 2 — Från Klippan till Vargarnas Glänta|Session 2]]. Kräver ingen kraftkristall
+- **Mage Armor** *(−1 kristall)* — +3 AC hela striden
+- **Sömnglas** *(−1 kristall)* — 3 små monster somnar i 2 rundor
+- **Teleport** *(−1 kristall)* — 12 rutor. Upplåst vid level up mellan Session 6 och 7. Debuterade mot goblins i [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]] — missade
 - **Blixtstav** (köpt hos [[Sigrid]], [[Session 3 — Brobråk, stjärntecken och den glada dvärgen|Session 3]])
 - **Hacka** — för när magi inte räcker
 
 ## Kraftkristaller
 
-Aduro bär **4 kraftkristaller**. Används för Blå flamma och Teleport. Återfås vid vila.
+Aduro bär **4 kraftkristaller**. Används för Mage Armor, Sömnglas och Teleport. Återfås vid vila.
 
 ## Utrustning
 
 - Magisk stav (hittad i goblinernas vakttrum, [[Session 1 — Flykten från fångelsehålan|Session 1]])
-- **Lejonets amulett** — en av tre gudomliga föremål. Stulen av [[Arnald]], tagen av hjältarna i Session 1. Nu sökt av en okänd boss i söder
-- Blixtstav
+- **Lejonets amulett** *(2d10 eldboll, 1×/strid)* — en av tre gudomliga föremål. Stulen av [[Arnald]], tagen av hjältarna i Session 1. Nu sökt av en okänd boss i söder
+- **Blixtstav** *(1d8 −1 per mål, hoppar 3 rutor)* — kedjeblixt som studsar mellan mål. Köpt hos [[Nori]] eller [[Sven]] ([[Session 3 — Brobråk, stjärntecken och den glada dvärgen|Session 3]])
 - Ryggsäck med rep och hacka
 - Spegelblank metallplatta (hittad vid savannen, [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]]) — syfte okänt
 - **Pågående skallsamling** — materialet till framtida axelpads. Två skallar insamlade i [[Session 6 — Skelett, korv och Beowulfs fall|Session 6]]
