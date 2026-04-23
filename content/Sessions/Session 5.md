@@ -36,6 +36,8 @@ Vid stenplattan väntade en ny överraskning — ett stort hål hade öppnat sig
 
 ### Del 3: Under ytan — sanningen om bröderna
 
+![[tre-gudabroderna.png]]
+
 Nere i grottan hittade de svaren. En enorm väggmålning visade de tre gudabröderna: **Vargen, Lejonet och Skorpionen**.
 
 Bitarna föll på plats:
