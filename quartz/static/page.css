@@ -519,6 +519,138 @@
 }
 .floating-compass svg { width: 100%; height: 100%; }
 
+/* ─── MAP ─── */
+.map-frame {
+  position: relative;
+  background: var(--vellum-warm);
+  border: 1px solid var(--ink-faded);
+  padding: 20px;
+  box-shadow: 0 40px 80px -40px rgba(0,0,0,0.45), inset 0 0 90px rgba(180,120,60,0.1);
+}
+.night .map-frame { border-color: rgba(200,133,74,0.25); }
+.map-frame-inner { position: relative; overflow: hidden; }
+.map-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1448 / 1086;
+  overflow: hidden;
+  background: var(--vellum-warm);
+}
+.map-img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(0.8) contrast(0.97);
+}
+.night .map-img { filter: saturate(0.5) contrast(0.85) brightness(0.65); }
+.map-tint {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, transparent 30%, rgba(180,140,80,0.1) 100%),
+    linear-gradient(to bottom, rgba(30,20,10,0.04), transparent 30%);
+}
+.night .map-tint {
+  background:
+    radial-gradient(ellipse at center, transparent 30%, rgba(20,12,5,0.45) 100%),
+    linear-gradient(to bottom, rgba(10,6,2,0.3), transparent 40%);
+}
+.map-wrap.can-pan { cursor: grab; }
+.map-wrap.panning  { cursor: grabbing; }
+
+.map-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+.pin-dot {
+  display: block;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--ink);
+  border: 2px solid var(--vellum);
+  box-shadow: 0 0 0 1px var(--ink), 0 0 0 8px rgba(200,133,74,0), 0 0 14px rgba(200,133,74,0.5);
+  transition: all 0.25s ease;
+}
+.map-pin:hover .pin-dot,
+.map-pin.is-active .pin-dot {
+  background: var(--rime);
+  box-shadow: 0 0 0 1px var(--ink), 0 0 0 6px rgba(200,133,74,0.2), 0 0 20px rgba(200,133,74,0.85);
+  transform: scale(1.2);
+}
+.pin-label {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  color: var(--ink);
+  white-space: nowrap;
+  text-shadow: 0 0 4px var(--vellum), 0 0 8px var(--vellum);
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.map-tooltip {
+  position: absolute;
+  transform: translate(var(--flip-x,0%), var(--flip-y,0%)) translate(calc(18px + (var(--flip-x,0%) * -0.2)), 18px);
+  width: 280px;
+  background: var(--vellum-warm);
+  border: 1px solid var(--ink);
+  padding: 18px 20px 16px;
+  z-index: 5;
+  box-shadow: 0 18px 38px -10px rgba(20,10,5,0.4), 0 0 0 4px var(--vellum-warm), 0 0 0 5px var(--vellum-edge);
+  animation: ttIn 0.18s ease-out;
+}
+@keyframes ttIn {
+  from { opacity: 0; transform: translate(var(--flip-x,0%), var(--flip-y,0%)) translate(18px, 24px); }
+}
+.night .map-tooltip {
+  background: var(--vellum-warm);
+  border-color: rgba(200,133,74,0.5);
+  box-shadow: 0 18px 38px -10px rgba(0,0,0,0.7), 0 0 0 4px var(--vellum-warm), 0 0 0 5px var(--vellum-edge);
+}
+.tooltip-corner {
+  position: absolute;
+  width: 10px; height: 10px;
+  border: 1px solid var(--ink);
+}
+.tooltip-corner.tl { top: -4px; left: -4px; border-right: none; border-bottom: none; }
+.tooltip-corner.tr { top: -4px; right: -4px; border-left: none; border-bottom: none; }
+.tooltip-corner.bl { bottom: -4px; left: -4px; border-right: none; border-top: none; }
+.tooltip-corner.br { bottom: -4px; right: -4px; border-left: none; border-top: none; }
+.tt-label { font-family: var(--font-label); text-transform: uppercase; letter-spacing: 0.26em; font-size: 0.7rem; color: var(--ink-faded); margin-bottom: 6px; }
+.tt-title { font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 8px; line-height: 1.1; }
+.tt-blurb { font-size: 0.9rem; line-height: 1.45; color: var(--ink-soft); margin: 0 0 14px; }
+.tt-link { font-family: var(--font-label); text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.72rem; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--ink); padding-bottom: 2px; }
+.tt-link:hover { color: var(--frost-shadow); border-color: var(--rime); }
+.night .tt-link:hover { color: var(--rime); border-color: var(--rime); }
+
+.map-legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-top: 20px;
+  font-family: var(--font-label);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+}
+
+.map-pin[data-type="town"] .pin-dot     { background: var(--frost-mid); }
+.map-pin[data-type="dungeon"] .pin-dot  { background: var(--wax); }
+.map-pin[data-type="landmark"] .pin-dot { background: var(--gold); }
+.map-pin[data-type="faction"] .pin-dot  { background: var(--moss); }
+.map-pin[data-type="event"] .pin-dot    { background: var(--rime); }
+
 /* ─── TORCH VIGNETTE (scroll effect) ─── */
 .torch-vignette {
   position: fixed;

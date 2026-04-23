@@ -47,6 +47,7 @@
     <nav class="topnav">
       <a href="#parti">Partiet</a>
       <a href="#wiki">Wiki</a>
+      <a href="#karta">Karta</a>
       <a href="#tidslinje">Tidslinje</a>
       <a href="../Sessions">Sessioner</a>
       <button id="theme-btn" onclick="toggleTheme()" aria-label="Byt tema">☽ Natt</button>
@@ -149,12 +150,49 @@
     <div class="rule-ornament" aria-hidden="true"><span class="glyph">✧</span></div>
   </div>
 
+  <!-- MAP SECTION -->
+  <section class="section" id="karta">
+    <div class="container">
+      <div class="section-head-block">
+        <div>
+          <div class="label">Kap. III · Topografi</div>
+          <h2>Kampanjkartan</h2>
+        </div>
+        <p>
+          Världen som gruppen utforskar. Klicka på en nål för att läsa mer om platsen i wikin.
+        </p>
+      </div>
+
+      <div class="map-frame">
+        <div class="map-frame-inner">
+          <div class="map-wrap" id="map-wrap">
+            <div id="map-zoom" style="position:absolute;inset:0;transform-origin:0 0;">
+              <img class="map-img" src="./assets/maps/world-map.png"
+                   alt="Kampanjkarta" draggable="false">
+              <div class="map-tint" aria-hidden="true"></div>
+              <!-- Map pins injected by JS -->
+            </div>
+          </div>
+          <div id="map-tooltip-layer" style="position:absolute;inset:0;pointer-events:none;"></div>
+        </div>
+        <div class="map-legend">
+          <span>⚔ 3 platser kartlagda</span>
+          <a href="./map.html" style="color:var(--ink-faded);font-family:var(--font-label);text-transform:uppercase;letter-spacing:0.18em;font-size:0.7rem;text-decoration:none;" target="_blank">Öppna helskärm →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="rule-ornament" aria-hidden="true"><span class="glyph">⚑</span></div>
+  </div>
+
   <!-- TIMELINE SECTION -->
   <section class="section" id="tidslinje">
     <div class="container">
       <div class="section-head-block">
         <div>
-          <div class="label">Kap. III · Bedrifter</div>
+          <div class="label">Kap. IV · Bedrifter</div>
           <h2>Tidslinje</h2>
         </div>
         <p>Kampanjens händelser session för session — senaste sessionen högst upp.</p>
@@ -184,6 +222,7 @@
 
 </div><!-- /page -->
 
+<script src="map-data.js"></script>
 <script src="timeline-data.js"></script>
 <script>
 const WIKI = "../";
@@ -235,6 +274,142 @@ const WIKI_SECTIONS = [
     slug: "Fraktioner",
     items: ["Hjältarna", "Banditerna vid Bladkurvan"] },
 ];
+
+// ─── MAP PINS + ZOOM/PAN ──────────────────────────────────
+(function () {
+  var wrap   = document.getElementById('map-wrap');
+  var zoomEl = document.getElementById('map-zoom');
+  var portal = document.getElementById('map-tooltip-layer');
+
+  var s = 1, tx = 0, ty = 0;
+  var dragging = false, dragX, dragY;
+
+  function clamp() {
+    var W = wrap.offsetWidth, H = wrap.offsetHeight;
+    tx = Math.min(0, Math.max(tx, W * (1 - s)));
+    ty = Math.min(0, Math.max(ty, H * (1 - s)));
+  }
+  function applyTransform() {
+    zoomEl.style.transform = 'translate(' + tx + 'px,' + ty + 'px) scale(' + s + ')';
+    wrap.classList.toggle('can-pan', s > 1);
+    renderTooltip();
+  }
+
+  wrap.addEventListener('wheel', function (e) {
+    e.preventDefault();
+    var r = wrap.getBoundingClientRect();
+    var mx = e.clientX - r.left, my = e.clientY - r.top;
+    var ns = Math.min(5, Math.max(1, s * (e.deltaY < 0 ? 1.15 : 1 / 1.15)));
+    tx = mx - (mx - tx) * (ns / s);
+    ty = my - (my - ty) * (ns / s);
+    s = ns; clamp(); applyTransform();
+  }, { passive: false });
+
+  wrap.addEventListener('mousedown', function (e) {
+    if (s <= 1) return;
+    if (e.target.closest && e.target.closest('.map-pin')) return;
+    dragging = true; dragX = e.clientX; dragY = e.clientY;
+    wrap.classList.add('panning'); e.preventDefault();
+  });
+  document.addEventListener('mousemove', function (e) {
+    if (!dragging) return;
+    tx += e.clientX - dragX; ty += e.clientY - dragY;
+    dragX = e.clientX; dragY = e.clientY;
+    clamp(); applyTransform();
+  });
+  document.addEventListener('mouseup', function () {
+    if (dragging) { dragging = false; wrap.classList.remove('panning'); }
+  });
+  wrap.addEventListener('dblclick', function (e) {
+    if (e.target.closest && e.target.closest('.map-pin')) return;
+    s = 1; tx = 0; ty = 0; applyTransform();
+  });
+
+  var pinned  = null;
+  var hovered = null;
+
+  function renderTooltip() {
+    var old = portal.querySelector('.map-tooltip');
+    if (old) old.remove();
+    var shown = pinned || hovered;
+    if (!shown) {
+      zoomEl.querySelectorAll('.map-pin').forEach(function (b) { b.classList.remove('is-active'); });
+      return;
+    }
+    var pin = MAP_PINS.find(function (p) { return p.id === shown; });
+    if (!pin) return;
+
+    var btn = zoomEl.querySelector('[data-pin="' + pin.id + '"]');
+    zoomEl.querySelectorAll('.map-pin').forEach(function (b) { b.classList.remove('is-active'); });
+    if (btn) btn.classList.add('is-active');
+
+    var pr = portal.getBoundingClientRect();
+    var br = btn ? btn.getBoundingClientRect() : null;
+    var cx = br ? (br.left + br.width / 2 - pr.left)  : (pin.x / 100 * pr.width);
+    var cy = br ? (br.top  + br.height / 2 - pr.top)  : (pin.y / 100 * pr.height);
+
+    var flipX = cx / pr.width  > 0.6  ? '-100%' : '0%';
+    var flipY = cy / pr.height > 0.55 ? '-100%' : '0%';
+
+    var tt = document.createElement('div');
+    tt.className = 'map-tooltip';
+    tt.setAttribute('role', 'dialog');
+    tt.style.position = 'absolute';
+    tt.style.left = cx + 'px';
+    tt.style.top  = cy + 'px';
+    tt.style.setProperty('--flip-x', flipX);
+    tt.style.setProperty('--flip-y', flipY);
+    tt.style.pointerEvents = 'auto';
+    tt.innerHTML =
+      '<div class="tooltip-corner tl"></div><div class="tooltip-corner tr"></div>' +
+      '<div class="tooltip-corner bl"></div><div class="tooltip-corner br"></div>' +
+      '<div class="tt-label">Plats</div>' +
+      '<div class="tt-title">' + pin.name + '</div>' +
+      '<p class="tt-blurb">' + pin.blurb + '</p>' +
+      '<a class="tt-link" href="' + WIKI + pin.slug + '">Öppna i wikin <span aria-hidden="true">→</span></a>';
+    portal.appendChild(tt);
+  }
+
+  MAP_PINS.forEach(function (p) {
+    var btn = document.createElement('button');
+    btn.className = 'map-pin';
+    btn.setAttribute('data-pin', p.id);
+    btn.setAttribute('data-type', p.type || 'town');
+    btn.setAttribute('aria-label', p.name);
+    btn.style.left = p.x + '%';
+    btn.style.top  = p.y + '%';
+    btn.innerHTML = '<span class="pin-dot" aria-hidden="true"></span>' + (p.label ? '<span class="pin-label">' + p.name + '</span>' : '');
+
+    btn.addEventListener('mouseenter', function () {
+      hovered = p.id;
+      if (!pinned) renderTooltip();
+    });
+    btn.addEventListener('mouseleave', function () {
+      hovered = null;
+      if (!pinned) renderTooltip();
+    });
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      pinned = (pinned === p.id) ? null : p.id;
+      renderTooltip();
+    });
+
+    zoomEl.appendChild(btn);
+  });
+
+  var isMapBg = function (t) {
+    return t === wrap || t === zoomEl ||
+           t.classList.contains('map-img') || t.classList.contains('map-tint');
+  };
+  wrap.addEventListener('click', function (e) {
+    if (!isMapBg(e.target)) return;
+    pinned = null; hovered = null; renderTooltip();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { pinned = null; hovered = null; renderTooltip(); }
+  });
+})();
 
 // ─── SCROLL ────────────────────────────────────────────────
 window.addEventListener('scroll', function () {
