@@ -12,7 +12,7 @@ tags:
 |---|---|---|---|---|
 | 33 | 12 | +5 | 1d10 + 1d4 | 6 rutor |
 
-**Eldbonusskada:** +2 &nbsp;·&nbsp; **Undersöka:** +5 &nbsp;·&nbsp; **Övertala:** +5
+**Undersöka:** +5 &nbsp;·&nbsp; **Övertala:** +5
 
 ## Om Aduro
 
@@ -26,8 +26,6 @@ Samlar på skallar — målet är att smida ett par **episka axelpads**.
 - **Mage Armor** *(−1 kristall)* — +3 AC hela striden
 - **Sömnglas** *(−1 kristall)* — 3 små monster somnar i 2 rundor
 - **Teleport** *(−1 kristall)* — 12 rutor. Upplåst vid level up mellan Session 6 och 7. Debuterade mot goblins i [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]] — missade
-- **Blixtstav** (köpt hos [[Sigrid]], [[Session 3 — Brobråk, stjärntecken och den glada dvärgen|Session 3]])
-- **Hacka** — för när magi inte räcker
 
 ## Kraftkristaller
 
@@ -38,7 +36,8 @@ Aduro bär **4 kraftkristaller**. Används för Mage Armor, Sömnglas och Telepo
 - Magisk stav (hittad i goblinernas vakttrum, [[Session 1 — Flykten från fångelsehålan|Session 1]])
 - **Lejonets amulett** *(2d10 eldboll, 1×/strid)* — en av tre gudomliga föremål. Stulen av [[Arnald]], tagen av hjältarna i Session 1. Nu sökt av en okänd boss i söder
 - **Blixtstav** *(1d8 −1 per mål, hoppar 3 rutor)* — kedjeblixt som studsar mellan mål. Köpt hos [[Nori]] ([[Session 3 — Brobråk, stjärntecken och den glada dvärgen|Session 3]])
-- Ryggsäck med rep och hacka
+- Hacka
+- Ryggsäck med rep
 - Spegelblank metallplatta (hittad vid savannen, [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]]) — syfte okänt
 - **Pågående skallsamling** — materialet till framtida axelpads. Två skallar insamlade i [[Session 6 — Skelett, korv och Beowulfs fall|Session 6]]
 
