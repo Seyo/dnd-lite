@@ -160,13 +160,8 @@ var TIMELINE_EVENTS = [
     desc: '<a href="../Karaktärer/Nari">Nari</a> hittar en guldpryl av okänt ursprung. <a href="../Karaktärer/Aduro">Aduro</a> hittar en spegelblank metallplatta. <a href="../Karaktärer/Aduro">Aduro</a> är skeptisk. Vad är det?'
   },
   {
-    session: "s07", day: "S7", type: "social", icon: "💆",
-    title: "Lerbad i savannen",
-    desc: 'Gruppen tar ett välbehövligt lerbad vid en oaskanal. Bultarna stelnar. Aduro stänker. Det är roligare än det låter.'
-  },
-  {
-    session: "s07", day: "S7", type: "social", icon: "👑",
-    title: "Mötet med Prins Aduro",
-    desc: 'I <a href="../Platser/Solporten">Solporten</a> möter gruppen <a href="../NPC/Sabrina">Sabrina</a> och prins Aduro — son till Lejonet. <em>"Min far är försvunnen och hans röt skrämmer hela staden."</em> Han ber om hjälp.'
+    session: "s07", day: "S7", type: "travel", icon: "🏙️",
+    title: "Ankomst till Solporten",
+    desc: 'Gruppen når <a href="../Platser/Solporten">Solporten</a>. Vid porten möter de en vakt som berättar att Krokben är ute på uppdrag — och rekommenderar ett hotell för natten.'
   }
 ];
