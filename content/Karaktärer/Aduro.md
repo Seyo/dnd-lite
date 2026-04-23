@@ -34,7 +34,7 @@ Aduro bär **4 kraftkristaller**. Används för Mage Armor, Sömnglas och Telepo
 ## Utrustning
 
 - Magisk stav (hittad i goblinernas vakttrum, [[Session 1 — Flykten från fångelsehålan|Session 1]])
-- **Lejonets amulett** *(2d10 eldboll, 1×/strid)* — en av tre gudomliga föremål. Stulen av [[Arnald]], tagen av hjältarna i Session 1. Nu sökt av en okänd boss i söder
+- **[[Lejonets amulett]]** *(2d10 eldboll, 1×/strid)* — en av tre gudomliga föremål. Stulen av [[Arnald]], tagen av hjältarna i Session 1. Nu sökt av en okänd boss i söder
 - **Blixtstav** *(1d8 −1 per mål, hoppar 3 rutor)* — kedjeblixt som studsar mellan mål. Köpt hos [[Nori]] ([[Session 3 — Brobråk, stjärntecken och den glada dvärgen|Session 3]])
 - Hacka
 - Ryggsäck med rep

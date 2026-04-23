@@ -41,7 +41,7 @@ Sen lekte Nari apport med Ulf. Vargguden glömde bort sin värdighet på sekunde
 
 De nådde Beowulf vid isvaken. Han utstrålade blå magi.
 
-- **[[Aduro]]** rusade fram och kanaliserade Lejonets amulett i en **mega-eldboll**. Beowulf vrålade av smärta — han hatar eld!
+- **[[Aduro]]** rusade fram och kanaliserade [[Lejonets amulett]] i en **mega-eldboll**. Beowulf vrålade av smärta — han hatar eld!
 - **[[Bult]]** försökte anfalla men halkade på isen. Beowulf tronade upp sig redo att krossa honom — men fick aska i ansiktet och missade helt.
 - **[[Nari]]** fick syn på något under isen: **sin gamla slev från brobråket** i [[Session 3 — Brobråk, stjärntecken och den glada dvärgen|Session 3]]! Han försökte desperat fiska upp den med rep och yxa. En **Nat 1** såg till att han istället klyv sleven rakt på mitten.
 

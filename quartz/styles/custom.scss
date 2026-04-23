@@ -189,3 +189,30 @@ article.popover-hint {
     margin: 0 0 1.2em 0;
   }
 }
+
+// ── Item images: float right, white bg blends with parchment ──────────────────
+.item-image {
+  float: right;
+  width: 38%;
+  margin: 0 0 1.2em 1.8em;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    mix-blend-mode: multiply;
+  }
+}
+
+:root[saved-theme="dark"] .item-image img {
+  mix-blend-mode: screen;
+  opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+  .item-image {
+    float: none;
+    width: 70%;
+    margin: 0 auto 1.2em;
+  }
+}

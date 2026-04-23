@@ -12,7 +12,7 @@ tags:
 
 Uppträdde först som en kort och sur gammal gubbe i den frusna skogen — sa sitt namn, visade sin blå amulett och försvann in bland träden. Gruppen märkte inte vem han var förrän de hittade väggmålningen i grottan nedanför stenplattan.
 
-Nere i grottöppningen avslölade han sig: förvandlades till en **enorm varg** och berättade att han är vargguden. Han kände igen Lejonets amulett som [[Aduro]] bär — han hade inte sett den på **2 000 år**.
+Nere i grottöppningen avslölade han sig: förvandlades till en **enorm varg** och berättade att han är vargguden. Han kände igen [[Lejonets amulett]] som [[Aduro]] bär — han hade inte sett den på **2 000 år**.
 
 ## Problemet
 
