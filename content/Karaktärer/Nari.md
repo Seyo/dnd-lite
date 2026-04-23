@@ -8,21 +8,27 @@ tags:
 **Klass:** Tjuv  
 **Specialitet:** Smygande, pilbåge, katastrofal diplomati, ännu mer katastrofal danspilattack
 
+| HP | AC | Attack | Skada | Rörelse |
+|---|---|---|---|---|
+| 31 | 15 | +5 | 1d8 + 4 | 6 rutor |
+
+**Pilbågebonusskada:** +3 &nbsp;·&nbsp; **Smidighet:** +5 &nbsp;·&nbsp; **Smyga:** +5
+
 ## Om Nari
 
 En smidig tjuv med utmärkta smygningsförmågor och ett hjärta av guld — även om hans sätt att visa det ibland lämnar en del att önska. Försökte vinna en goblins förtroende med en gaffel. Resultatet var inte det väntade. Har sedan dess blivit kampanjens mest dekorerade tävlingsdeltagare och en mästare på att hoppa i hål i rätt ögonblick.
 
-## Kända förmågor
+## Förmågor
 
-- **Smygning** — kan leda hela gruppen tyst förbi patrullerande vakter
-- **Dubbelskott** *(kraftkristall)* — kraftfullt dubbelanfall med pilbågen
-- **Dansattack** *(kraftkristall)* — skjuter pilar åt alla möjliga håll medan Nari dansar. Debuterade i [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]] med en Nat 1 som träffade [[Aduro]] i hälen
-- **Pilar som vinder runt hörn** — upplåst vid level up i [[Session 2 — Från Klippan till Vargarnas Glänta|Session 2]]
+- **Smyga** *(passiv)* — göm dig bakom något, +5 på nästa attack
+- **Målsökande pil** *(passiv)* — +1 att träffa om du ser målet, −1 om målet är bakom en vägg. Upplåst vid level up i [[Session 2 — Från Klippan till Vargarnas Glänta|Session 2]]
+- **Dubbelskott** *(−1 kristall)* — skjut 2 pilar samtidigt direkt
+- **Dansfest** *(−1 kristall)* — 4d4 skada som träffar lite överallt. Debuterade i [[Session 7 — Lerbad, rökridåer och prinsen av Solporten|Session 7]] med en Nat 1 som träffade [[Aduro]] i hälen
 - **Dyrkning** — i teorin
 
 ## Kraftkristaller
 
-Nari bär **4 kraftkristaller**. Används för Dubbelskott och Dansattack. Återfås vid vila.
+Nari bär **4 kraftkristaller**. Används för Dubbelskott och Dansfest. Återfås vid vila.
 
 ## Utrustning
 
