@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DnD — Lite · Kampanjkrönika</title>
+  <meta name="description" content="En levande krönika över Aduro och Naris äventyr — uppdateras efter varje session.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./medieval-vellum.css">
+  <link rel="stylesheet" href="./page.css">
+</head>
+<body>
+
+<div class="page parchment parchment-edge" id="page-root">
+
+  <!-- Torch vignette (scroll effect) -->
+  <div class="torch-vignette" id="torch-vignette" aria-hidden="true"></div>
+
+  <!-- Floating compass -->
+  <div class="floating-compass" id="compass" aria-hidden="true">
+    <svg width="72" height="72" viewBox="0 0 120 120" fill="none">
+      <circle cx="60" cy="60" r="52" stroke="currentColor" stroke-width="0.6" opacity="0.5"/>
+      <circle cx="60" cy="60" r="42" stroke="currentColor" stroke-width="0.4" opacity="0.35"/>
+      <path d="M60 8 L66 56 L60 60 L54 56 Z" fill="currentColor" opacity="0.9"/>
+      <path d="M60 112 L66 64 L60 60 L54 64 Z" fill="currentColor" opacity="0.55"/>
+      <path d="M8 60 L56 66 L60 60 L56 54 Z" fill="currentColor" opacity="0.55"/>
+      <path d="M112 60 L64 66 L60 60 L64 54 Z" fill="currentColor" opacity="0.55"/>
+      <path d="M23 23 L54 54 L60 60 L54 66 L23 97 Z" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.3"/>
+      <g font-family="var(--font-display)" font-size="10" fill="currentColor" text-anchor="middle">
+        <text x="60" y="6" dominant-baseline="hanging">N</text>
+        <text x="60" y="119">S</text>
+        <text x="4" y="63">V</text>
+        <text x="116" y="63">Ö</text>
+      </g>
+      <circle cx="60" cy="60" r="3" fill="currentColor"/>
+    </svg>
+  </div>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <a class="brand" href="./landing.html">
+      <div class="brand-mark">⚔</div>
+      <span>DnD — Lite · Kampanjkrönika</span>
+    </a>
+    <nav class="topnav">
+      <a href="#parti">Partiet</a>
+      <a href="#wiki">Wiki</a>
+      <a href="#tidslinje">Tidslinje</a>
+      <a href="../Sessions">Sessioner</a>
+      <button id="theme-btn" onclick="toggleTheme()" aria-label="Byt tema">☽ Natt</button>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <div class="hero-kicker">
+          <span class="tick"></span>
+          <span>En kampanjkrönika för hela familjen</span>
+        </div>
+        <h1 class="hero-title">
+          DnD —<br>
+          <em>Lite</em>
+        </h1>
+        <p class="hero-sub">
+          En levande krönika över Aduro och Nari — deras bedrifter, bakslag
+          och äventyr i ett land av vargar, gudar och lösta mysterier.
+          Uppdateras efter varje session.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#parti">Möt hjältarna</a>
+          <a class="btn ghost" href="#wiki">Öppna wikin</a>
+        </div>
+      </div>
+
+      <aside class="status-card" aria-label="Kampanjstatus">
+        <div class="status-head">
+          <div class="status-day" aria-label="7 sessioner">7</div>
+          <div class="status-day-label">Sessioner</div>
+        </div>
+        <div class="status-body">
+          <div class="label">Senast i kampanjen</div>
+          <blockquote class="status-quote">
+            "Min far Lejonet är försvunnen — och hans röt skrämmer hela Solporten."
+          </blockquote>
+          <div class="status-attr">— Prins Aduro, vid sitt första möte</div>
+          <ul class="status-open-questions">
+            <li>Var är Lejonet?</li>
+            <li>Vem är den okände bossen som söker Lejonets amulett?</li>
+            <li>Vad händer med den förvisade Skorpionen i öknen?</li>
+            <li>Hinner Nari till danstävlingen i Solporten?</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span>Rulla ned</span>
+      <div class="scroll-cue-line"></div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="rule-ornament" aria-hidden="true"><span class="glyph">✦</span></div>
+  </div>
+
+  <!-- PARTY SECTION -->
+  <section class="section" id="parti">
+    <div class="container">
+      <div class="section-head-block">
+        <div>
+          <div class="label">Kap. I · Hjältarna</div>
+          <h2>Partiet</h2>
+        </div>
+        <p>
+          Två hjältar bundna av äventyr och öde —
+          en drakonblod-trollkarl och en listig skurk.
+        </p>
+      </div>
+      <div class="party-grid" id="party-grid"></div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="rule-ornament" aria-hidden="true"><span class="glyph">❋</span></div>
+  </div>
+
+  <!-- WIKI INDEX SECTION -->
+  <section class="section" id="wiki">
+    <div class="container">
+      <div class="section-head-block">
+        <div>
+          <div class="label">Kap. II · Krönika</div>
+          <h2>Wikin</h2>
+        </div>
+        <p>
+          Kampanjens hela dokumentation: karaktärer, platser, NPC:er,
+          uppdrag och händelser. Klicka en sektion för att öppna kapitlet.
+        </p>
+      </div>
+      <div class="sections-grid" id="sections-grid"></div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="rule-ornament" aria-hidden="true"><span class="glyph">✧</span></div>
+  </div>
+
+  <!-- TIMELINE SECTION -->
+  <section class="section" id="tidslinje">
+    <div class="container">
+      <div class="section-head-block">
+        <div>
+          <div class="label">Kap. III · Bedrifter</div>
+          <h2>Tidslinje</h2>
+        </div>
+        <p>Kampanjens händelser session för session — senaste sessionen högst upp.</p>
+      </div>
+
+      <div class="tl-legend">
+        <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#8e44ad"></div>Socialt</div>
+        <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#2980b9"></div>Resa</div>
+        <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#27ae60"></div>Utredning</div>
+        <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#d4762a"></div>Strid</div>
+        <div class="tl-legend-item"><div class="tl-legend-dot" style="background:#c0392b"></div>Dödsfall</div>
+      </div>
+
+      <div class="timeline-v" id="timeline-v"></div>
+    </div>
+  </section>
+
+  <div class="container">
+    <footer class="footer">
+      <span>DnD — Lite · 2026</span>
+      <span id="footer-variant">Pergament · Dagkrönika</span>
+      <a class="inklink" href="https://seyo.github.io/dnd-lite/">
+        seyo.github.io/dnd-lite
+      </a>
+    </footer>
+  </div>
+
+</div><!-- /page -->
+
+<script src="timeline-data.js"></script>
+<script>
+const WIKI = "../";
+
+const CHARACTERS = [
+  { id: "aduro", name: "Aduro", role: "Drakonblod Trollkarl",
+    portrait: "./assets/portraits/aduro.png",
+    blurb: "Fjäll som reser sig vid magi, vingliknande öron. Samlar skallar till framtida axelpads. Bär Lejonets amulett och kan teleportera.",
+    slug: "Karaktärer/Aduro" },
+  { id: "nari", name: "Nari", role: "Listig Skurk",
+    portrait: "./assets/portraits/nari.png",
+    blurb: "Prickskytt med böjda pilar och en smärtsamt kreativ dansattack. Hittade 12 guld — som var damm. Har ett mystiskt ben vars ursprung ingen vet.",
+    slug: "Karaktärer/Nari" },
+];
+
+const WIKI_SECTIONS = [
+  { title: "Karaktärer",
+    subtitle: "Hjältar och deras förmågor",
+    count: 3,
+    slug: "Karaktärer",
+    items: ["Aduro — Drakonblod Trollkarl", "Nari — Listig Skurk", "Bult — Paladin (DM)"] },
+  { title: "NPC:er",
+    subtitle: "Vänner, fiender och okänt folk",
+    count: 12,
+    slug: "NPC",
+    items: ["Hildur", "Ulf", "Beowulf", "Rollo", "Lejonet", "Kapten Krokfot", "+ 6 fler"] },
+  { title: "Platser",
+    subtitle: "Städer, skogar och ruiner",
+    count: 3,
+    slug: "Platser",
+    items: ["Bladkurvan — första byn", "Fångelsehålan — Session 1-dungeon", "Solporten — vid djungelns rand"] },
+  { title: "Uppdrag",
+    subtitle: "Aktiva trådar och öppna frågor",
+    count: 6,
+    slug: "Uppdrag",
+    items: ["Hitta Lejonet", "Den okände bossen", "Prins Aduro", "Rykten & lösa trådar"] },
+  { title: "Sessioner",
+    subtitle: "Alla 7 äventyr",
+    count: 7,
+    slug: "Sessions",
+    items: ["S1 — Flykten från fångelsehålan", "S2 — Vargarnas Glänta", "S3 — Den glada dvärgen", "S4 — Den blå vintern", "+ 3 fler"] },
+  { title: "Fraktioner",
+    subtitle: "Grupper och lojaliteter",
+    count: 2,
+    slug: "Fraktioner",
+    items: ["Hjältarna", "Banditerna vid Bladkurvan"] },
+];
+
+// ─── SCROLL ────────────────────────────────────────────────
+window.addEventListener('scroll', function () {
+  var root = document.documentElement;
+  var h = root.scrollHeight - root.clientHeight;
+  var p = h > 0 ? Math.min(1, root.scrollTop / h) : 0;
+  document.getElementById('page-root').style.setProperty('--scroll-frost', Math.min(0.55, p * 0.9));
+  document.getElementById('compass').style.setProperty('--compass-rot', (p * 140) + 'deg');
+}, { passive: true });
+
+// ─── PARTY CARDS ───────────────────────────────────────────
+(function () {
+  var grid = document.getElementById('party-grid');
+  CHARACTERS.forEach(function (c) {
+    var a = document.createElement('a');
+    a.className = 'char-card';
+    a.href = WIKI + c.slug;
+    a.innerHTML =
+      '<div class="char-portrait">' +
+        '<img src="' + c.portrait + '" alt="' + c.name + '" loading="lazy" onerror="this.style.display=\'none\'">' +
+        '<div class="char-flame" aria-hidden="true"></div>' +
+      '</div>' +
+      '<div class="char-meta">' +
+        '<div class="label">' + c.role + '</div>' +
+        '<div class="char-name display">' + c.name + '</div>' +
+        '<p class="char-blurb">' + c.blurb + '</p>' +
+        '<div class="char-more">Läs mer <span aria-hidden="true">→</span></div>' +
+      '</div>';
+    grid.appendChild(a);
+  });
+})();
+
+// ─── WIKI SECTION CARDS ────────────────────────────────────
+(function () {
+  var grid = document.getElementById('sections-grid');
+  WIKI_SECTIONS.forEach(function (s) {
+    var items = s.items.slice(0, 5).map(function (it) { return '<li>' + it + '</li>'; }).join('');
+    if (s.items.length > 5) items += '<li class="muted">+ ' + (s.items.length - 5) + ' fler</li>';
+    var a = document.createElement('a');
+    a.className = 'section-card';
+    a.href = WIKI + s.slug;
+    a.innerHTML =
+      '<div class="section-head">' +
+        '<div class="label">' + s.subtitle + '</div>' +
+        '<div class="section-count">' + s.count + '</div>' +
+      '</div>' +
+      '<div class="section-title display">' + s.title + '</div>' +
+      '<ul class="section-list">' + items + '</ul>' +
+      '<div class="section-foot"><span>Öppna kapitel</span><span aria-hidden="true">→</span></div>';
+    grid.appendChild(a);
+  });
+})();
+
+// ─── TIMELINE ──────────────────────────────────────────────
+(function () {
+  var container = document.getElementById('timeline-v');
+  if (!container) return;
+  function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+
+  var groups = {};
+  TIMELINE_SESSIONS.forEach(function(s) { groups[s.id] = []; });
+  TIMELINE_EVENTS.forEach(function(e) { if (groups[e.session]) groups[e.session].push(e); });
+
+  // Reverse chronological: most recent session first
+  TIMELINE_SESSIONS.slice().reverse().forEach(function(session) {
+    var hdr = document.createElement('div');
+    hdr.className = 'tl-session';
+    hdr.innerHTML = '<a href="' + WIKI + session.slug + '">' + esc(session.label) + '</a>';
+    container.appendChild(hdr);
+
+    groups[session.id].slice().reverse().forEach(function(ev) {
+      var item = document.createElement('div');
+      item.className = 'tl-event tl-' + ev.type;
+      item.innerHTML =
+        '<div class="tl-card">' +
+          '<div class="tl-header">' +
+            '<span class="tl-day">' + ev.day + '</span>' +
+            '<span class="tl-icon">' + ev.icon + '</span>' +
+            '<span class="tl-title">' + ev.title + '</span>' +
+          '</div>' +
+          '<div class="tl-desc">' + ev.desc + '</div>' +
+        '</div>';
+      container.appendChild(item);
+    });
+  });
+})();
+
+// ─── THEME TOGGLE ──────────────────────────────────────────
+function toggleTheme() {
+  var root = document.getElementById('page-root');
+  var btn  = document.getElementById('theme-btn');
+  root.classList.toggle('night');
+  document.documentElement.classList.toggle('night');
+  var isNight = root.classList.contains('night');
+  btn.textContent = isNight ? '☀ Dag' : '☽ Natt';
+  document.getElementById('footer-variant').textContent =
+    isNight ? 'Nattbok · Dungeon' : 'Pergament · Dagkrönika';
+  localStorage.setItem('dnd-theme', isNight ? 'dark' : 'light');
+}
+(function () {
+  var saved = localStorage.getItem('dnd-theme');
+  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if ((saved ?? (prefersDark ? 'dark' : 'light')) === 'dark') toggleTheme();
+})();
+</script>
+
+</body>
+</html>
